@@ -1,0 +1,290 @@
+/* Index Section Styles */
+#home {
+    background-color: #e8f0fe; /* Fond bleu clair */
+    padding: 60px 20px; /* Espacement interne */
+    text-align: center; /* Centre le texte */
+}
+
+#home h1 {
+    font-size: 48px; /* Taille de la police pour le titre principal */
+    color: #007BFF; /* Couleur du titre */
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+#home h2 {
+    font-size: 32px; /* Taille pour le sous-titre */
+    color: #333; /* Couleur sombre */
+    margin-bottom: 30px; /* Espacement sous le sous-titre */
+}
+
+#home p {
+    font-size: 18px; /* Taille de la police pour le paragraphe */
+    color: #555; /* Couleur du texte */
+    line-height: 1.6; /* Hauteur de ligne pour lisibilité */
+    max-width: 800px; /* Limite la largeur du texte */
+    margin: 0 auto; /* Centre le texte */
+}
+
+#home .button {
+    display: inline-block; /* Bouton en ligne */
+    padding: 12px 20px; /* Espacement interne */
+    margin-top: 20px; /* Espacement au-dessus du bouton */
+    background-color: #007BFF; /* Couleur du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 4px; /* Coins arrondis */
+    text-decoration: none; /* Supprime le soulignement */
+    font-size: 18px; /* Taille de la police pour le bouton */
+    transition: background-color 0.3s; /* Transition pour le changement de couleur */
+}
+
+#home .button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
+/* Style pour l'image de la page d'accueil */
+.profile-image {
+    width: 150px; /* Largeur de l'image */
+    height: 150px; /* Hauteur de l'image */
+    border-radius: 50%; /* Rend l'image ronde */
+    object-fit: cover; /* Recadre l'image pour qu'elle remplisse parfaitement la forme */
+    margin: 20px auto; /* Centre l'image et ajoute de l'espace autour */
+    display: block; /* Centre l'image en mode bloc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+    border: 3px solid #007BFF; /* Ajoute une bordure colorée */
+    transition: transform 0.3s; /* Effet de transition pour les animations */
+}
+
+.profile-image:hover {
+    transform: scale(1.05); /* Agrandit légèrement l'image au survol */
+}
+
+
+/* About Section Styles */
+#about {
+    background-color: #f9f9f9; /* Fond léger */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+#about h2 {
+    text-align: center;
+    color: #333; /* Couleur sombre pour le texte */
+}
+
+#about p {
+    line-height: 1.6; /* Meilleure lisibilité */
+}
+  /* Skills Section Styles */
+#skills {
+    background-color: #f0f8ff; /* Fond bleu clair */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    text-align: center;
+    color: #333;
+}
+
+.skill {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e7f3fe; /* Fond bleu plus clair */
+    border-radius: 5px;
+    text-align: center; /* Centre le texte */
+}
+/* Section Projets */
+#projects {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 8px;
+}
+
+#projects h2 {
+    text-align: center;
+    color: #0044cc;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.project {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.project h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.project ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.project ul li {
+    font-size: 16px;
+    color: #666;
+}
+
+  /* Contact Section Styles */
+#contact {
+    background-color: #f9f9f9; /* Fond léger */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Formulaire vertical */
+}
+
+form label {
+    margin-bottom: 5px; /* Espacement entre label et champ */
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 15px; /* Espacement entre les champs */
+    border: 1px solid #ccc; /* Bordure légère */
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #007BFF; /* Couleur du bouton */
+    color: white; /* Texte blanc */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition pour le bouton */
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
+  /* CV Section Styles */
+#cv {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limite la largeur du CV */
+    margin: 20px auto; /* Centre le CV sur la page */
+  }
+  
+  .personal-info, .education, .experience, .skills, .interests {
+    margin-bottom: 30px; /* Espacement entre les sections */
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #007BFF; /* Couleur de titre */
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 28px; /* Taille du sous-titre */
+    color: #007BFF; /* Couleur du sous-titre */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007BFF; /* Ligne en bas du sous-titre */
+    padding-bottom: 5px; /* Espacement en bas */
+  }
+  
+  ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Espacement entre les éléments de la liste */
+    padding: 10px; /* Espacement interne */
+    background-color: #e7f1ff; /* Fond léger pour les éléments de liste */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Effet de transition */
+  }
+  
+  li:hover {
+    background-color: #cfe9ff; /* Changement de couleur au survol */
+  }
+
+  /* Styles de la section des compétences */
+#skills {
+    background-color: #f7fafc; /* Fond léger */
+    padding: 40px 20px;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+#skills h2 {
+    text-align: center;
+    color: #007BFF; /* Couleur principale */
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.skill-category {
+    margin-bottom: 30px;
+}
+
+.skill-category h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007BFF; /* Ligne colorée sous le titre */
+    padding-bottom: 5px;
+}
+
+.skill-category ul {
+    list-style: none; /* Supprime les puces de liste */
+    padding-left: 0;
+}
+
+  
+  /* Développement Web Mobile (Débutant) */
+.skill-category ul li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.skill-category ul li::before {
+    content: "📱"; /* Icône pour le développement mobile */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #007BFF;
+    font-size: 18px;
+    line-height: 1.6;
+}
